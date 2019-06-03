@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Title</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Assistant:400,600,700,800|Open+Sans:400,700&amp;subset=hebrew" rel="stylesheet">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+	<div class="overflow-content">
+	@import "mobile-menu.html"
+	<div class="transform-content">
+		<div class="transform-content-overlay"></div>
+		@import "header.html"
+		<main class="contacts">
+			<section class="contacts-map" id="map"></section>
+			<section class="contacts-main">
+				<div class="container">
+					<div class="contacts-main-flex">
+						<div class="contacts-main-left">
+							<h2 class="contacts-main-title">Title</h2>
+							<form action="" class="contacts-main-form">
+								<div class="contacts-main-row">
+									<label class="contacts-main-label">YOUR NAME *</label>
+									<input type="text" class="contacts-main-input order-form-input" required>
+								</div>
+								<div class="contacts-main-row">
+									<label class="contacts-main-label">YOUR EMAIL *</label>
+									<input type="email" class="contacts-main-input order-form-input" required>
+								</div>
+								<div class="contacts-main-row">
+									<label class="contacts-main-label">SUBJECT</label>
+									<input type="text" class="contacts-main-input order-form-input">
+								</div>
+								<div class="contacts-main-row">
+									<label class="contacts-main-label">YOUR MESSAGE</label>
+									<textarea class="order-form-textarea contacts-main-textarea"></textarea>
+								</div>
+								<button class="btn order-form-btn">
+									Order
+								</button>
+							</form>
+						</div>
+						<div class="contacts-main-right">
+							<div class="contacts-main-item">
+								<div class="contacts-main-subtitle">
+									<h4 class="contacts-main-subtitle-text">Our Address</h4>
+									<span class="contacts-main-subtitle-span"></span>
+								</div>
+								<div class="contacts-info">
+									<h6 class="contacts-info-title">New York</h6>
+									<a href="tel:18003334263" class="contacts-info-phone">1-800-333-42-63</a>
+									<p class="contacts-info-address">67 2nd House RD Montauk, NY, 11954</p>
+									<a href="mailto:sf@woodstock.com" class="contacts-info-mail">sf@woodstock.com</a>
+								</div>
+								<div class="contacts-info">
+									<h6 class="contacts-info-title">New York</h6>
+									<a href="tel:18003334263" class="contacts-info-phone">1-800-333-42-63</a>
+									<p class="contacts-info-address">67 2nd House RD Montauk, NY, 11954</p>
+									<a href="mailto:sf@woodstock.com" class="contacts-info-mail">sf@woodstock.com</a>
+								</div>
+							</div>
+							<div class="contacts-main-item">
+								<div class="contacts-main-subtitle">
+									<h4 class="contacts-main-subtitle-text">OPENING HOURS</h4>
+									<span class="contacts-main-subtitle-span"></span>
+								</div>
+								<div class="contacts-info">
+									<div class="contacts-info-row">
+										<p class="contacts-info-day">Monday to Friday:</p>
+										<p class="contacts-info-time">10am to 6pm</p>
+									</div>
+									<div class="contacts-info-row">
+										<p class="contacts-info-day">Monday to Friday:</p>
+										<p class="contacts-info-time">10am to 6pm</p>
+									</div>
+									<div class="contacts-info-row">
+										<p class="contacts-info-day">Monday to Friday:</p>
+										<p class="contacts-info-time">10am to 6pm</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		@import "footer.html"
+	</div>
+</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/libs.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlAd-i0lx9TWfwCnbhqTsglGrCBpNHW5k"></script>
+	<script src="js/map.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>

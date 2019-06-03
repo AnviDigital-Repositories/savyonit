@@ -1,0 +1,340 @@
+.home
+  //margin-top: 257px
+.first
+  padding: 240px 0 200px
+  margin-top: 257px
+  background: url(../img/bg.jpg) no-repeat center
+  background-size: cover
+  text-align: center
+  &-title
+    font-size: 80px
+    font-weight: 700
+    display: inline-block
+    color: #ffffff
+    background: #000000
+    line-height: 70px
+    padding: 0 20px 20px 45px
+  &-subtitle
+    font-size: 36px
+    font-weight: 600
+    color: #ffffff
+    display: inline-block
+    background: #6fb32c
+    padding: 5px 57px
+    margin-top: 10px
+  &-flex
+    display: flex
+    flex-direction: column
+    align-items: center
+.second
+  padding: 70px 0 35px
+  &-main
+    display: flex
+    flex-wrap: wrap
+    justify-content: flex-start
+    width: 100%
+    max-width: 1350px
+    margin: 0 auto
+    &-block
+      width: calc(67% - 12px)
+      position: relative
+      margin-bottom: 24px
+      text-decoration: none
+      overflow: hidden
+      &:hover
+        .second-main-img
+          transform: scale(1.03)
+      &_sm
+        width: calc(33% - 12px)
+      &:nth-child(odd)
+        margin-right: 24px
+    &-img
+      width: 100%
+      height: 100%
+      object-fit: cover
+      transition: all .2s ease
+    &-title
+      position: absolute
+      background: #6fb32c url(../img/arrow-big.png) no-repeat left 35px center
+      font-size: 42px
+      font-weight: 700
+      color: #ffffff
+      top: 40px
+      right: 0
+      line-height: 52px
+      padding: 0 20px 10px 65px
+.third
+  padding: 10px 0 100px
+  &-title
+    font-size: 56px
+    color: #000000
+    text-align: center
+    font-weight: 600
+  &-main
+    padding: 0 4.2vw
+    display: flex
+    justify-content: space-between
+    margin-top: 75px
+    &-item
+      text-align: right
+      padding-bottom: 10px
+      border-bottom: 1px solid #000000
+    &-img
+      width: 14vw
+      height: 14vw
+    &-link
+      font-size: 26px
+      font-weight: 700
+      color: #000000
+      text-decoration: none
+      text-align: right
+      padding-left: 20px
+      background: url(../img/arrow-black.png) no-repeat left top 11px
+.fourth
+  background-color: #6fb32c
+  text-align: center
+  padding: 60px 20px 80px
+  &-title
+    text-transform: uppercase
+    font-size: 74px
+    font-weight: 600
+    .white-text
+      font-size: 80px
+      color: #ffffff
+  &-subtitle
+    font-size: 36px
+    color: #ffffff
+    background: #000000
+    display: inline-block
+    padding: 5px 40px 10px 40px
+  &-img
+    margin: 80px auto 20px
+  &-btn
+    display: inline-block
+    color: #000000
+    background: url(../img/arrow-black.png) no-repeat left 30px center
+    font-weight: 400
+    border: 1px solid #000000
+    border-radius: 3px
+    padding: 3px 25px 9px 45px
+    font-size: 26px
+.fifth
+  padding: 120px 0 150px
+  &-top
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-top: 15px
+  &-filter
+    display: flex
+    align-items: center
+    justify-content: flex-start
+  &-info
+    font-size: 20px
+    display: flex
+    margin-top: -20px
+    &-all
+      padding-right: 5px
+      direction: rtl
+    &-current
+      direction: rtl
+  .catalog-list
+    margin-top: 45px
+.product-form-item
+  &_fifth
+    direction: rtl
+    border-radius: 3px
+    .product-form-select
+      border: none
+      background: #f5f5f5
+      font-size: 16px
+    &:before
+      background-size: 4px 8px
+  &_sort
+    width: 200px
+    margin-right: 10px
+  &_number
+    width: 65px
+    .product-form-select
+      padding-right: 10px
+.sixth
+  background-color: #f5f5f5
+  display: flex
+  &-left
+    width: 58%
+    display: flex
+    justify-content: flex-end
+    padding: 50px 100px 50px 0
+    &-content
+      max-width: 750px
+      width: 100%
+      direction: rtl
+    &-title
+      font-size: 56px
+      font-weight: 600
+      color: #000000
+      margin-bottom: 20px
+    &-text
+      font-size: 22px
+      font-weight: 400
+      line-height: 1.45
+      color: #505050
+      margin-bottom: 30px
+    &-link
+      text-decoration: none
+      font-size: 22px
+      color: #505050
+      border: 1px solid #464646
+      border-radius: 3px
+      padding: 0 17px 6px 17px
+      display: inline-block
+  &-right
+    width: 42%
+    &-img
+      width: 100%
+      height: 100%
+      object-fit: cover
+.seventh
+  padding: 100px 0 95px
+  &-list
+    display: flex
+    justify-content: space-between
+  &-item
+    width: 31%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: flex-start
+    text-align: center
+    &-icon
+      height: 84px
+      display: flex
+      align-items: center
+    &-title
+      font-size: 32px
+      font-weight: 700
+      color: #000000
+      margin: 35px 0 20px
+    &-text
+      font-size: 22px
+      font-weight: 400
+      line-height: 1.45
+      color: #505050
+      width: 100%
+  &-post
+    display: flex
+    justify-content: space-between
+    padding: 110px 0
+    &-item
+      width: 32%
+      height: 260px
+      &_big
+        width: 49%
+        height: 430px
+    &-img
+      width: 100%
+      height: 100%
+      object-fit: cover
+.eight
+  background-color: #f5f5f5
+  &-flex
+    display: flex
+    justify-content: space-between
+  &-right
+    width: 820px
+    margin-left: 50px
+    text-align: right
+    padding: 80px 0 90px
+    &-title
+      font-size: 56px
+      font-weight: 600
+      color: #000000
+  &-form
+    display: flex
+    flex-direction: column
+    direction: rtl
+    margin-top: 45px
+    align-items: flex-start
+    &-input
+      outline: none
+      border: 2px solid #acacac
+      border-radius: 5px
+      font-size: 22px
+      font-weight: 400
+      color: #505050
+      height: 46px
+      line-height: 46px
+      padding: 0 15px
+      margin-bottom: 30px
+      background: transparent
+      width: 100%
+    &-label
+      font-size: 22px
+      font-weight: bold
+      color: #ffffff
+      background: #000000 url(../img/photo-icon.png) no-repeat right 20px center
+      cursor: pointer
+      height: 56px
+      line-height: 56px
+      border-radius: 5px
+      padding: 0 75px 0 20px
+      margin: -5px 0 20px
+      transition: all .5s ease
+      &:hover
+        background-color: #404040
+      &-input
+        width: 0
+        height: 0
+        overflow: hidden
+    &-textarea
+      font-family: 'Assistant', sans-serif
+      font-size: 22px
+      color: #505050
+      border: 2px solid #acacac
+      border-radius: 5px
+      outline: none
+      background: transparent
+      resize: none
+      height: 140px
+      padding: 10px 15px
+      width: 100%
+    &-btn
+      background: #6fb32c
+      display: inline-block
+      border-radius: 5px
+      padding: 5px 20px
+      margin-top: 35px
+      &:hover
+        background: #4f8320
+  &-left
+    width: 465px
+    background-color: #6fb32c
+    text-align: right
+    padding: 190px 50px 20px
+    &-block
+      display: flex
+      flex-direction: column
+    &-title
+      font-size: 36px
+      font-weight: 700
+      color: #ffffff
+      flex-shrink: 0
+      white-space: nowrap
+      margin-left: 15px
+    &-line
+      width: 100%
+      height: 3px
+      background-color: #f5f5f5
+      display: block
+    &-row
+      display: flex
+      align-items: center
+      margin-bottom: 15px
+    &-text
+      font-size: 22px
+      color: #ffffff
+      margin: 2px 0
+      text-decoration: none
+    &-item
+      margin-bottom: 70px
+
